@@ -28,7 +28,7 @@ from os.path import isfile, join
 
 from math import floor
 from scipy.ndimage.interpolation import zoom, rotate
-from classifier import *
+
 
 st.header("DFD")
 

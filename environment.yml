@@ -6,3 +6,4 @@ dependencies:
      - scipy
      - opencv
      - matplotlib
+     - tensorflow==2.5.0rc1

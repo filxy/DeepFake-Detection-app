@@ -1,7 +1,6 @@
 import streamlit as st
 import cv2
 import numpy as np
-import tensorflow as tf
 from PIL import Image
 # Imported libraries
 from IPython.display import display, Javascript, Image
@@ -13,7 +12,6 @@ import io
 import html
 import time
 import matplotlib.pyplot as plt
-import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.layers import Input, Dense, Flatten, Conv2D, MaxPooling2D, BatchNormalization, Dropout, Reshape, Concatenate, LeakyReLU

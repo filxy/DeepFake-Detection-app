@@ -1,0 +1,15 @@
+name: dlib
+channels:
+  - conda-forge
+dependencies:
+  - streamlit >= 0.73
+  - dlib
+streamlit
+cmake
+tensorflow==2.5.0rc1
+opencv-python-headless
+face-recognition
+imageio-ffmpeg
+imageio
+pillow
+ffmpeg-python

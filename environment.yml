@@ -4,3 +4,4 @@ dependencies:
      - dlib
      - numpy
      - scipy
+     - opencv

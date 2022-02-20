@@ -7,3 +7,4 @@ imageio-ffmpeg
 imageio
 pillow
 ffmpeg-python
+matplotlib

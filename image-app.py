@@ -144,14 +144,4 @@ if(type == 'jpg'or'png'or'jpeg'):
 X, y = generator.next()
 print('Predicted :', meso.predict(X), '\nReal class :', y)
 
-# Rendering image X with label y for MesoNet
-X, y = generator.next()
-
-# Evaluating prediction
-print(f"Predicted likelihood: {meso.predict(X)[0][0]:.4f}")
-print(f"Actual label: {int(y[0])}")
-print(f"\nCorrect prediction: {round(meso.predict(X)[0][0])==y[0]}")
-
-# Showing image
-plt.imshow(np.squeeze(X));
 st.write("predictions closer to 0 are fake and predictions closer to 1 are real")

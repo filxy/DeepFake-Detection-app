@@ -1,4 +1,3 @@
-conda-forge
 dlib
 streamlit
 cmake

@@ -1,6 +1,4 @@
 streamlit
-apt-get update && apt-get install -y cmake
-cmake
 tensorflow==2.5.0rc1
 opencv-python-headless
 face-recognition

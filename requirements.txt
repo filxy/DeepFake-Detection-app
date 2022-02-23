@@ -7,3 +7,6 @@ imageio-ffmpeg
 imageio
 pillow
 ffmpeg-python
+cuda-python
+tensorflow==2.4.0
+cudnn-python-wrappers

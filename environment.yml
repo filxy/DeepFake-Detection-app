@@ -6,6 +6,7 @@ dependencies:
      - matplotlib
      - tensorflow==2.4.0
      - streamlit
+     - pip
      - cmake
      - pip:
        - opencv-python-headless

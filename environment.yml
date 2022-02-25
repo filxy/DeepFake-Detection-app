@@ -10,11 +10,7 @@ dependencies:
      - cmake
      - pip:
        - opencv-python-headless
-       - face-recognition
-       - imageio-ffmpeg
-       - imageio
        - pillow
-       - ffmpeg-python
        - cuda-python
        - cudnn-python-wrappers
-       - face_recognition
+       

@@ -2,8 +2,19 @@ channels:
      - conda-forge
 dependencies:
      - dlib
+     - pip
      - numpy
-     - scipy
      - opencv
-     - matplotlib
-     - tensorflow==2.4.0
+     - pip:
+          - matplotlib
+          - tensorflow==2.4.0
+          - streamlit
+          - cmake
+          - opencv-python-headless
+          - face-recognition
+          - imageio-ffmpeg
+          - imageio
+          - pillow
+          - ffmpeg-python
+          - cuda-python
+          - cudnn-python-wrappers

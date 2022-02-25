@@ -18,3 +18,4 @@ dependencies:
           - ffmpeg-python
           - cuda-python
           - cudnn-python-wrappers
+          - face_recognition

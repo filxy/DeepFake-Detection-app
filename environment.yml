@@ -1,6 +1,4 @@
 name: test-env
-channels:
-- conda-forge
 dependencies:
 - dlib
 - numpy

@@ -1,5 +1,5 @@
 name: test-env
-Channels:
+channels:
   - conda-forge
 dependencies:
   - dlib

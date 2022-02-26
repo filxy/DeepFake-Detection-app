@@ -1,15 +1,17 @@
 name: test-env
+Channels:
+  - conda-forge
 dependencies:
-- dlib
-- numpy
-- matplotlib
-- tensorflow==2.4.0
-- streamlit
-- pip
-- cmake
-- pip:
-  - opencv-python-headless
-  - pillow
-  - cuda-python
-  - cudnn-python-wrappers
+  - dlib
+  - numpy
+  - matplotlib
+  - tensorflow==2.4.0
+  - streamlit
+  - pip
+  - cmake
+  - pip:
+    - opencv-python-headless
+    - pillow
+    - cuda-python
+    - cudnn-python-wrappers
        

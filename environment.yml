@@ -1,15 +1,16 @@
 channels:
-  - conda
+  - anaconda 
+  - conda-forge
   - defaults
 dependencies:
     - dlib
     - numpy
-    - matplotlib
-    - tensorflow==2.4.0
-    - streamlit
     - pip
     - cmake
     - pip:
+        - streamlit
+        - matplotlib
+        - tensorflow==2.4.0
         - opencv-python-headless
         - pillow
         - cuda-python

@@ -35,7 +35,7 @@ st.header("Deep Fake Detector")
 
 @st.cache
 def load_image(uploaded_file):
-  img = Image.open(uploaded_file)
+  img = Image.open("https://github.com/filxy/test/tree/main/tempDir")
   return img
 
 def save_uploadedfile(uploaded_file):

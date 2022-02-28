@@ -24,8 +24,8 @@ import os
 from os import listdir
 from os.path import isfile, join
 
-from math import floor
-from scipy.ndimage.interpolation import zoom, rotate
+#from math import floor
+#from scipy.ndimage.interpolation import zoom, rotate
 import tensorflow as tf
 config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True

@@ -7,12 +7,11 @@ dependencies:
     - numpy
     - pip
     - cmake
-    - tensorflow==2.4.0
-    - streamlit
     - pip:
+        - tensorflow==2.4.0
+        - streamlit
         - matplotlib
         - opencv-python-headless
         - pillow
         - cuda-python
-        - cudnn-python-wrappers
-        
+        - cudnn-python-wrapper

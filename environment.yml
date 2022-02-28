@@ -14,4 +14,4 @@ dependencies:
         - opencv-python-headless
         - pillow
         - cuda-python
-        - cudnn-python-wrapper
+        - cudnn-python-wrappers

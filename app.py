@@ -143,7 +143,7 @@ class Meso4(Classifier):
 
 if st.button("Predict"):
       meso = Meso4()
-      meso.load("https://github.com/filxy/test/blob/main/saved_model/Meso4_DF")
+      meso.load("saved_model/Meso4_DF")
                                       #image generator to predict images
       dataGenerator = ImageDataGenerator(rescale=1./255)
       generator = dataGenerator.flow_from_directory('https://github.com/filxy/test/tree/main/test',

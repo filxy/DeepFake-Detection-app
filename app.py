@@ -150,8 +150,8 @@ if st.button("Predict"):
       generator = dataGenerator.flow_from_directory('tempDir',
                                                       target_size=(256, 256),
                                                       batch_size= 1,
-                                                      class_mode='binary',
-                                                      subset='training')
+                                                      class_mode='binary')
+                                          
             # Evaluating Prediction
       X, y = generator.next()
 

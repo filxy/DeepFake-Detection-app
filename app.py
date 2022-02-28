@@ -41,7 +41,7 @@ def load_image(uploaded_file):
   return img
 
 def save_uploadedfile(uploaded_file):
-  with open(os.path.join("tempDir",uploaded_file.name),"wb") as f:
+  with open(os.path.join("https://github.com/filxy/test/tree/main/tempDir",uploaded_file.name),"wb") as f:
     f.write(uploaded_file.getbuffer())
     return st.success("Saved File:{} to tempDir".format(uploaded_file.name))
 
@@ -143,11 +143,11 @@ class Meso4(Classifier):
 
 if st.button("Predict"):
       meso = Meso4()
-      meso.load("saved_model/Meso4_DF")
+      meso.load("https://github.com/filxy/test/tree/main/saved_model")
       
                                       #image generator to predict images
       dataGenerator = ImageDataGenerator(rescale=1./255)
-      generator = dataGenerator.flow_from_directory('test',
+      generator = dataGenerator.flow_from_directory('https://github.com/filxy/test/tree/main/test',
                                                       target_size=(256, 256),
                                                       batch_size= 1,
                                                       class_mode='binary',

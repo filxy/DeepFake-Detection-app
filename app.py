@@ -147,10 +147,11 @@ if st.button("Predict"):
       
                                       #image generator to predict images
       dataGenerator = ImageDataGenerator(rescale=1./255)
-      generator = dataGenerator.flow_from_directory('tempDir',
+      generator = dataGenerator.flow_from_directory('test',
                                                       target_size=(256, 256),
                                                       batch_size= 1,
-                                                      class_mode='binary')
+                                                      class_mode='binary'
+                                                      subset='training')
                                           
             # Evaluating Prediction
       X, y = generator.next()

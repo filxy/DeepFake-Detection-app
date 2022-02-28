@@ -146,7 +146,7 @@ if st.button("Predict"):
       meso.load("saved_model/Meso4_DF")
                                       #image generator to predict images
       dataGenerator = ImageDataGenerator(rescale=1./255)
-      generator = dataGenerator.flow_from_directory('https://github.com/filxy/test/tree/main/test',
+      generator = dataGenerator.flow_from_directory('test',
                                                       target_size=(256, 256),
                                                       batch_size= 1,
                                                       class_mode='binary',

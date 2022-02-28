@@ -15,4 +15,5 @@ dependencies:
         - pillow
         - cuda-python
         - cudnn-python-wrappers
+        - nvdia-cudnn
        

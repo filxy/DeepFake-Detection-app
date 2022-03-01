@@ -59,6 +59,7 @@ def main():
     st.write("about app")
 if __name__ == '__main__':
         main()
+    if choice == "image prediction":
 uploaded_file = st.file_uploader("Choose a image file - file format must be JPEG,JPG PR PNG ONLY", type = ['jpeg','jpg','png'])
 
 if uploaded_file is not None:

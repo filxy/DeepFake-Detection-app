@@ -160,5 +160,5 @@ if st.button("Predict"):
                                           
       st.write("predictions closer to 0 are fake and predictions closer to 1 are real")
       
-    else:
-      st.write("about app")
+else:
+  st.write("about app")

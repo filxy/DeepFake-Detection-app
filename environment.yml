@@ -5,6 +5,7 @@ channels:
 dependencies:
     - dlib
     - numpy
+    - scipy
     - pip
     - cmake
     - pip:

@@ -55,11 +55,11 @@ def main():
       bytes_data = uploaded_file.read()
       st.write("filename:", uploaded_file.name)
       st.write(bytes_data)
-  if choice == "About":
+  elif choice == "About":
     st.write("about app")
 if __name__ == '__main__':
         main()
-uploaded_file = st.file_uploader("Choose a image file", type = ['jpeg','jpg','MOV','mp4'])
+uploaded_file = st.file_uploader("Choose a image file - file format must be JPEG,JPG PR PNG ONLY", type = ['jpeg','jpg','png'])
 
 if uploaded_file is not None:
   # Convert the file to an opencv image.

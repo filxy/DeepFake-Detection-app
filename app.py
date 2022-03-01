@@ -143,6 +143,7 @@ class Meso4(Classifier):
     y = Dense(1, activation = 'sigmoid')(y)
 
     return Model(inputs = x, outputs = y)
+  
   if Predict:
         meso = Meso4()
         meso.load("saved_model/Meso4_DF")

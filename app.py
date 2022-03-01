@@ -77,7 +77,7 @@ if uploaded_file is not None:
   
   with open(uploaded_file.name,"wb") as f:
     f.write(uploaded_file.getbuffer())
-    predict = st.button("Predict")
+    
     
       
 
@@ -144,7 +144,7 @@ class Meso4(Classifier):
 
     return Model(inputs = x, outputs = y)
   
-  if Predict:
+  if st.button("Predict"):
         meso = Meso4()
         meso.load("saved_model/Meso4_DF")
                                       #image generator to predict images

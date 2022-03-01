@@ -59,7 +59,7 @@ def main():
       st.write("about app")
 if __name__ == '__main__':
         main()
-uploaded_file = st.file_uploader("Choose a image file", type = ['jpeg','jpg'])
+uploaded_file = st.file_uploader("Choose a image file", type = ['jpeg','jpg',.MOV,.mp4])
 
 if uploaded_file is not None:
   # Convert the file to an opencv image.

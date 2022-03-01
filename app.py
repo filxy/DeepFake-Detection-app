@@ -57,7 +57,7 @@ def main():
       st.write(bytes_data)
        
   elif choice == "About":
-    st.write("This App let's you Predict Deep Fake Images")
+    st.write("This  app let's you Predict Deep Fake Images")
 if __name__ == '__main__':
         main()
     

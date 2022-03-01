@@ -55,8 +55,8 @@ def main():
       bytes_data = uploaded_file.read()
       st.write("filename:", uploaded_file.name)
       st.write(bytes_data)
-    else:
-      st.write("about app")
+  if choice == "About":
+    st.write("about app")
 if __name__ == '__main__':
         main()
 uploaded_file = st.file_uploader("Choose a image file", type = ['jpeg','jpg','MOV','mp4'])
@@ -159,6 +159,4 @@ if st.button("Predict"):
       st.write('Predicted :', meso.predict(X), '\nReal class :', y)
                                           
       st.write("predictions closer to 0 are fake and predictions closer to 1 are real")
-      
-else:
-  st.write("about app")
+   

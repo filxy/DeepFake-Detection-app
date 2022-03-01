@@ -144,22 +144,21 @@ class Meso4(Classifier):
 
     return Model(inputs = x, outputs = y)
   
-  if st.button("Predict"):
-        meso = Meso4()
-        meso.load("saved_model/Meso4_DF")
-                                      #image generator to predict images
-        dataGenerator = ImageDataGenerator(rescale=1./255)
-        generator = dataGenerator.flow_from_directory('test',
-                                                        target_size=(256, 256),
-                                                        batch_size= 1,
-                                                        class_mode='binary',
-                                                        subset='training')
-                                          
+if st.button("Predict"):
+  meso = Meso4()
+  meso.load("/content/drive/MyDrive/Colab Notebooks/Meso4_DF")
+  
+  dataGenerator = ImageDataGenerator(rescale=1./255)
+  generator = dataGenerator.flow_from_directory('/content/drive/MyDrive/Colab Notebooks/test',
+                                                target_size=(256, 256),
+                                                batch_size= 1,
+                                                class_mode='binary',
+                                                subset='training')
             # Evaluating Prediction
-        X, y = generator.next()
+  X, y = generator.next()
 
                                       
-        st.write('Predicted :', meso.predict(X), '\nReal class :', y)
+  st.write('Predicted :', meso.predict(X), '\nReal class :', y)
                                           
-        st.write("predictions closer to 0 are fake and predictions closer to 1 are real")
+  st.write("predictions closer to 0 are fake and predictions closer to 1 are real")
    

@@ -15,6 +15,10 @@ dependencies:
         - pillow
         - cuda-python
         - cudnn-python-wrappers
-        - Js2Py
+        - face-recognition
         - pytube
         - matplotlib
+        - imageio-ffmpeg
+        - imageio
+        - ffmpeg-python
+        

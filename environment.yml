@@ -13,7 +13,5 @@ dependencies:
         - streamlit
         - opencv-python-headless
         - pillow
-        - cuda-python
-        - cudnn-python-wrappers
         - pytube
         - matplotlib

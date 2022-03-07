@@ -685,7 +685,8 @@ def main():
       
   
   elif choice == "About":
-    st.write("This App Precits if an image or video is manipulated or authentic.It also predicts youtube url & real-time webcam images.")
+    st.write("This App Precits if an image or video is manipulated or authentic.")
+    st.write("It also predicts youtube url and real-time webcam images.")
       
 if __name__ == '__main__':
   main()

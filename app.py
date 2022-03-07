@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 # Imported libraries
 from IPython.display import display, Javascript, Image
-from Js2Py import eval_js
+import eval_js
 from base64 import b64decode, b64encode
 import numpy as np
 import cv2

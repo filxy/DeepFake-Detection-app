@@ -7,19 +7,19 @@ dependencies:
     - numpy
     - scipy
     - cmake
-    - opencv
+    - imageio
+    - imageio-ffmpeg
+    - ffmpeg-python
     - pip
     - pip:
         - tensorflow==2.4.0
         - streamlit
+        - opencv-python-headless
         - pillow
         - cuda-python
         - cudnn-python-wrappers
         - face-recognition
         - face_recognition
-        - imageio
-        - imageio-ffmpeg
-        - ffmpeg-python
         - Js2Py
         - pytube
         - matplotlib

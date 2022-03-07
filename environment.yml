@@ -6,8 +6,8 @@ dependencies:
     - dlib
     - numpy
     - scipy
-    - pip
     - cmake
+    - pip
     - pip:
         - tensorflow==2.4.0
         - streamlit

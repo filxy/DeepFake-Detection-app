@@ -20,3 +20,4 @@ dependencies:
         - imageio
         - ffmpeg-python
         - pytube
+        - matplotlib

@@ -310,6 +310,7 @@ def main():
 
   elif choice == "Youtube Prediction":
     st.subheader("Predict with Youtube Url")
+    st.subheader("WARNING - youtube prediction is currently unavailable due to technical difficulties")
     videourl = st.text_input('Type youtube url here',"https://www.youtube.com/watch?v=DdZ163jzw4w")
     st.video(videourl)
 

@@ -131,7 +131,7 @@ def main():
 
       if st.button("Predict"):
         meso = Meso4()
-        meso.load("saved_model/Meso4_F2F.h5")
+        meso.load("saved_model/Meso4_DF")
         
         
         dataGenerator = ImageDataGenerator(rescale=1./255)

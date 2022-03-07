@@ -16,6 +16,7 @@ dependencies:
         - cuda-python
         - cudnn-python-wrappers
         - face-recognition
+        - face_recognition
         - imageio
         - imageio-ffmpeg
         - ffmpeg-python

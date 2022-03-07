@@ -17,3 +17,4 @@ dependencies:
         - cudnn-python-wrappers
         - pytube
         - matplotlib
+        - face_recognition

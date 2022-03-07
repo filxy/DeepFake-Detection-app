@@ -24,8 +24,7 @@ import os
 from os import listdir
 from os.path import isfile, join
 from pytube import YouTube
-import face_recognition
-import imageio
+
     
 
 from math import floor

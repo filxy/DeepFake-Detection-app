@@ -9,11 +9,14 @@ dependencies:
     - cmake
     - pip
     - pip:
-        - tensorflow==2.4.0
+        - tensorflow-cpu
         - streamlit
         - opencv-python-headless
         - pillow
         - pytube
         - matplotlib
-        - cuda-python
-        - cudnn-python-wrappers
+        - face_recognition
+        - face-recognition 
+        - imageio-ffmpeg
+        - imageio
+        - ffmpeg-python

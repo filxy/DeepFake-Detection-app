@@ -10,7 +10,7 @@ dependencies:
     - pip
     - pip:
         - tensorflow==2.4.0
-        - streamlit
+        - streamlit== 1.11.1
         - opencv-python-headless
         - pillow
         - pytube

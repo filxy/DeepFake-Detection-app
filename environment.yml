@@ -6,6 +6,7 @@ dependencies:
     - dlib
     - numpy
     - scipy
+    - cmake
     - pip
     - pip:
         - tensorflow==2.4.0
@@ -14,3 +15,5 @@ dependencies:
         - pillow
         - pytube
         - matplotlib
+        - cuda-python
+        - cudnn--python-wrappers

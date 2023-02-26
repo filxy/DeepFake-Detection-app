@@ -1,7 +1,3 @@
-channels:
-  - anaconda
-  - pipenv
-  - defaults
 dependencies:
     - dlib
     - numpy

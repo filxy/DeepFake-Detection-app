@@ -7,9 +7,6 @@ dependencies:
     - numpy
     - scipy
     - cmake
-    - conda
-    - python=3.7
-    - pip=21.2.4
     - pip:
         - tensorflow==2.5.0
         - streamlit

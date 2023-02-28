@@ -7,7 +7,8 @@ dependencies:
     - numpy
     - scipy
     - cmake
-    - pip:
+    - conda
+    - pip==21.2.4:
         - tensorflow==2.5.0
         - streamlit
         - opencv-python-headless

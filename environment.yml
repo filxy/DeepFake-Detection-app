@@ -1,16 +1,9 @@
-#channels:
- # - anaconda
-  #- conda-forge
-  #- defaults
-#dependencies:
-    #- dlib
-   # - cmake
-    - numpy
-    - scipy
-    - tensorflow-cpu
-    - streamlit
-    - opencv-python-headless
-    - pillow
-    - pytube
-    - matplotlib
-    - ipython
+numpy
+scipy
+tensorflow-cpu
+streamlit
+opencv-python-headless
+pillow
+pytube
+matplotlib
+ipython

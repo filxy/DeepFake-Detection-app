@@ -1,6 +1,0 @@
-# build-essential
-# libgtk-3-dev
-# libboost-all-dev
-# cmake
-# freeglut3-dev
-# libopenblas-dev

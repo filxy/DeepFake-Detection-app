@@ -1,6 +1,6 @@
 numpy
 scipy
-tensorflow-cpu
+tensorflow
 streamlit
 opencv-python-headless
 pillow

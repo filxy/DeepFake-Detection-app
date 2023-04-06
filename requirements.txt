@@ -1,6 +1,6 @@
 numpy
 scipy
-tensorflow
+tensorflow==2.5.0
 streamlit
 opencv-python-headless
 pillow

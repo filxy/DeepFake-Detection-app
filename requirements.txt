@@ -10,4 +10,4 @@ matplotlib
 ipython
 scikit-learn
 prophet
-keras==2.2.2
+keras==2.11.0

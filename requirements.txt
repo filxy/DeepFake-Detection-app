@@ -9,5 +9,4 @@ pytube
 matplotlib
 ipython
 scikit-learn
-keras
 prophet

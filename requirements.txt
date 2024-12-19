@@ -8,4 +8,4 @@ pillow
 pytube
 matplotlib
 ipython
-sklearn
+scikit-learn

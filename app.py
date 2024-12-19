@@ -36,7 +36,7 @@ session = tf.compat.v1.InteractiveSession(config=config)
 
 st.header("Deep Fake Detector")
 
-@st.cache_data
+@st.cache_resource
 def load_image(uploaded_file):
   img = Image.open(uploaded_file)
   return img
@@ -685,7 +685,7 @@ def main():
       
   
   elif choice == "About":
-    st.write("This App Precits if an image or video is manipulated or authentic.")
+    st.write("This app Predicts if an image or video is manipulated or authentic.")
     st.write("It also predicts youtube url and real-time webcam images.")
       
 if __name__ == '__main__':

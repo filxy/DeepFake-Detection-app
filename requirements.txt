@@ -9,8 +9,4 @@ pytube
 matplotlib
 ipython
 scikit-learn
-pandas
-plotly
-yfinance
-pandas-datareader
 prophet

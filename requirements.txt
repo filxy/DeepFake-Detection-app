@@ -1,4 +1,4 @@
-pip
+pip install -r 
 numpy==1.22.3
 scipy==1.7.3
 tensorflow==2.8.0
@@ -10,3 +10,4 @@ matplotlib==3.5.1
 ipython==8.3.0
 scikit-learn==1.0.2
 keras==2.8.0
+prophet

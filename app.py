@@ -92,7 +92,7 @@ def main():
         def __init__(self, learning_rate = 0.001):
           self.model = self.init_model()
           # Defined a gradient Descent optimizer variable and set the LR in the constructor
-          optimizer = Adam(learning_rate = learning_rate)
+          optimizer = Adam(lr = learning_rate)
           # Defined parameters to compile the model
           self.model.compile(optimizer = optimizer,
                             loss = 'mean_squared_error',
@@ -250,7 +250,7 @@ def main():
       def __init__(self, learning_rate = 0.001):
         self.model = self.init_model()
                                   # Defined a gradient Descent optimizer variable and set the LR in the constructor
-        optimizer = Adam(learning_rate = learning_rate)
+        optimizer = Adam(lr = learning_rate)
                                   # Defined parameters to compile the model
         self.model.compile(optimizer = optimizer,
                           loss = 'mean_squared_error',
@@ -346,7 +346,7 @@ def main():
         def __init__(self, learning_rate = 0.001):
           self.model = self.init_model()
           # Defined a gradient Descent optimizer variable and set the LR in the constructor
-          optimizer = Adam(learning_rate = learning_rate)
+          optimizer = Adam(lr = learning_rate)
           # Defined parameters to compile the model
           self.model.compile(optimizer = optimizer,
                             loss = 'mean_squared_error',

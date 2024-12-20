@@ -11,6 +11,5 @@ ipython
 scikit-learn
 prophet
 prophet
-Keras
 Keras-Applications
 Keras-Preprocessing

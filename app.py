@@ -21,7 +21,6 @@ from tensorflow.keras.layers import LeakyReLU
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import Model
-from keras.applications.keras_applications import keras_applications
 from keras_applications.mobilenet_v3 import MobileNetV3
 from tensorflow.keras.applications.mobilenet_v3 import MobileNetV3Large, preprocess_input as mobilenet_v3_preprocess_input
 #from tensorflow import keras

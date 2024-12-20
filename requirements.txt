@@ -10,3 +10,6 @@ matplotlib
 ipython
 scikit-learn
 prophet
+keras
+keras-application
+keras-preprocessing

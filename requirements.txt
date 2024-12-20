@@ -12,4 +12,4 @@ scikit-learn
 prophet
 keras
 keras_application
-keras-preprocessing
+keras_preprocessing

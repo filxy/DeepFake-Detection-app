@@ -1,12 +1,10 @@
 pip
 numpy
 scipy
-tensorflow
+tensorflow-cpu
 streamlit
 opencv-python-headless
 pillow
 pytube
 matplotlib
 ipython
-scikit_learn
-keras

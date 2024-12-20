@@ -1,7 +1,7 @@
 pip
 numpy
 scipy
-tensorflow==2.16.1
+tensorflow-cpu
 streamlit
 opencv-python-headless
 pillow

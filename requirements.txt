@@ -1,7 +1,7 @@
 pip
-numpy==1.19.2
+numpy
 scipy
-tensorflow-cpu==2.11.orc2
+tensorflow
 streamlit
 opencv-python-headless
 pillow
@@ -10,4 +10,3 @@ matplotlib
 ipython
 scikit_learn
 keras==2.2.5
-six~=1.15.0 

@@ -9,4 +9,4 @@ pytube
 matplotlib
 ipython
 scikit_learn
-keras==2.2.5
+keras

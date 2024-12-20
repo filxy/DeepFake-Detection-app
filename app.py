@@ -19,7 +19,7 @@ from tensorflow.keras.layers import Input, Dense, Flatten, Conv2D, MaxPooling2D,
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import Model
-from tensorflow.keras.applications.mobilenet_v3 import MobileNetV3.preprocess_input as mobilenet_v3_preprocess_input
+from tensorflow.keras.applications.mobilenet_v3 import MobileNetV3,preprocess_input as mobilenet_v3_preprocess_input
 from scipy.ndimage.interpolation import zoom,rotate
 import random
 import os

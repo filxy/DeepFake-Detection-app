@@ -1,10 +1,11 @@
 pip
 scipy
-tensorflow-cpu
+tensorflow-cpu==2.11.orc2
 streamlit
 opencv-python-headless
 pillow
 pytube
 matplotlib
 ipython
+scikit_learn
 keras==2.2.5

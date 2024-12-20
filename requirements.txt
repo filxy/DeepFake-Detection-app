@@ -1,7 +1,6 @@
 pip
 numpy
 scipy
-tensorflow-cpu
 streamlit
 opencv-python-headless
 pillow
@@ -9,3 +8,6 @@ pytube
 matplotlib
 ipython
 scikit-learn 
+tensorflow==2.5.0
+cuda-python
+cudnn--python-wrappers

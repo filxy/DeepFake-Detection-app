@@ -1,0 +1,4 @@
+libgtk-3-dev
+lbboost-all-dev
+freeglut3-dev
+libopenblas-dev

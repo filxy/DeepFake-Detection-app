@@ -37,7 +37,7 @@ session = tf.compat.v1.InteractiveSession(config=config)
 
 st.header("Deep Fake Detector")
 
-@st.cache_data
+@st.cache
 def load_image(uploaded_file):
   img = Image.open(uploaded_file)
   return img

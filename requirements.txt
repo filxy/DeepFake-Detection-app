@@ -1,12 +1,10 @@
 pip
-numpy
 scipy
 tensorflow-cpu
-streamlit==1.41.0
+streamlit
 opencv-python-headless
 pillow
 pytube
 matplotlib
 ipython
-scikit-learn
 keras==2.2.5

@@ -8,3 +8,7 @@ pillow
 pytube
 matplotlib
 ipython
+scikit-learn
+prophet
+prophet
+keras

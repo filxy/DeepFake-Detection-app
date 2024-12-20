@@ -9,4 +9,5 @@ pytube
 matplotlib
 ipython
 scikit-learn
+prophet
 keras==2.2.5

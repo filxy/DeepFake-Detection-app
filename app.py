@@ -1,5 +1,5 @@
 import streamlit as st
-import sklearn
+#import sklearn
 import cv2
 import numpy as np
 from PIL import Image

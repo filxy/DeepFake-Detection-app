@@ -1,0 +1,13 @@
+channels:
+ - anaconda
+ - conda-forge
+ - defaults
+dependencies:
+ - dlib
+ - numpy
+ - scipy
+ - cmake
+ - pip:
+   - tensorflow==2.5.0
+   - cuda-python
+   - cudnn--python-wrappers

@@ -2,7 +2,7 @@ pip
 numpy
 scipy
 tensorflow-cpu
-streamlit
+streamlit==1.41.0
 opencv-python-headless
 pillow
 pytube

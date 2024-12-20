@@ -11,5 +11,5 @@ ipython
 scikit-learn
 prophet
 keras
-keras-application
+keras_application
 keras-preprocessing

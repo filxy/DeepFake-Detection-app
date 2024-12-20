@@ -63,7 +63,7 @@ def main():
       # Now do something with the image! For example, let's display it:
       st.image(opencv_image, channels="RGB")
       save_uploadedfile(uploaded_file)
-      resized = mobilenet_v2_preprocess_input(resized)
+      resized = mobilenet_v3_preprocess_input(resized)
       img_reshape = resized[np.newaxis,...]
       with open(uploaded_file.name,"wb") as f:
         f.write(uploaded_file.getbuffer())
